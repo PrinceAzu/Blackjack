@@ -1,0 +1,92 @@
+/*
+*
+* =====================
+* UNVERSAL
+* =====================
+*
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+*
+* =====================
+* GLOBAL
+* =====================
+*
+*/
+
+body {
+    background-color: #0A192F;
+    margin: 0;
+    padding: 0;
+    color: #B4BFDE;
+    font-family: "Proxima Nova", "Roboto", sans-serif;
+}
+
+/*
+*
+* =====================
+* ITEM
+* =====================
+*
+*/
+
+section {
+    max-width: 350px;
+    width: 85%;
+    margin: 4rem auto;
+}
+
+.container {
+    background-color: #04142c;
+    text-align: center;
+    padding: 1.3rem;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),
+    0 4px 5px 0 rgba(0,0,0,0.14),
+    0 1px 10px 0 rgba(0,0,0,0.12);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff7f50;
+}
+
+p {
+    font-weight: 600;
+}
+
+.content, .btns {
+    display: flex;
+    flex-direction: column;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.btns {
+    width: 70%;
+    margin: 0 auto;
+}
+
+button {
+    background: #ff7f50;
+    border: none;
+    padding: 0.4rem .1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #04142c;
+    margin-top: .3rem;
+    border: none;
+    border-radius: 2px;
+}
+
+button:hover {
+    background: #f74e11;
+}
+
